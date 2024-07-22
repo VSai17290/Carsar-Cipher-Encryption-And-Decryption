@@ -9,7 +9,7 @@ Table of Contents:
 6) Examples
 7) Contributing
 6) License
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1) Introduction:
 The Caesar cipher is a basic encryption technique used by Julius Caesar to securely communicate with his officials. In this task, you'll implement functions to both encrypt and decrypt messages using the Caesar cipher.
@@ -46,7 +46,7 @@ bash
 Copy code
 python decrypt.py "Encrypted message here" <shift_value>
 
-6) Examples
+6) Examples:
 Encrypting a Message
 python
 Copy code
@@ -89,8 +89,8 @@ print(f"Encrypted: {ciphertext}")  # Outputs: KHOOR ZRUOG
 
 decrypted_message = decrypt(ciphertext, shift)
 print(f"Decrypted: {decrypted_message}")  # Outputs: HELLO WORLD
-7) Contributing
+7) Contributing:
 Contributions are welcome! Please fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-8) License
+8) License:MM
 This project is licensed under the MIT License. See the LICENSE file for details.
